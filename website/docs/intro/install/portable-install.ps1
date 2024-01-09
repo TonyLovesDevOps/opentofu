@@ -1,4 +1,4 @@
-$TOFU_VERSION="1.6.0-alpha2"
+$TOFU_VERSION="1.6.0"
 $TARGET=Join-Path $env:LOCALAPPDATA OpenTofu
 New-Item -ItemType Directory -Path $TARGET
 Push-Location $TARGET
